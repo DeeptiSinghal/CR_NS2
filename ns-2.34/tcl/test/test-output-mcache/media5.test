@@ -1,0 +1,18 @@
+# TESTNAME: media5
+# TOPOLOGY: 4node-h
+# avg-page-size: 512000
+# avg-req-interval: 1000
+# cache-sizefac: 0.4
+# client-req-size: 43
+# duration: 550
+# enable-log: 1
+# ns-random-seed: 188312339
+# num-pages: 3
+# obj-layer: 8
+# prot: media5
+# req-dist: Poisson
+# total-requests: 10
+# Page 0 has size 390516
+# Page 1 has size 356925
+# Page 2 has size 310834
+10 i 3 S MOD p _o96:0 m 10 n 9 
